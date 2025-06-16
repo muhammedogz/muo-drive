@@ -1,0 +1,51 @@
+[
+  {
+    "id": "engineering",
+    "name": "Engineering",
+    "createdBy": "Muo",
+    "parent": null,
+    "files": [
+      {
+        "id": "onboarding.md",
+        "name": "Dev Onboarding",
+        "createdBy": "Muo"
+      }
+    ]
+  },
+  {
+    "id": "fc7e75eb-6231-4bdc-af91-97ea47588ecf",
+    "name": "test-folder",
+    "parent": null,
+    "createdBy": "auth0|684eba3731094a932601e8e9",
+    "files": [
+      {
+        "id": "b1ee6fe0-c8c1-43a4-8827-69fe28a77dd2",
+        "name": "file in test folder 1",
+        "createdBy": "auth0|684eba3731094a932601e8e9"
+      },
+      {
+        "id": "0bdfdf69-4b3c-4049-b27e-0a27b18f3bb3",
+        "name": "file in test folder 2",
+        "createdBy": "auth0|684eba3731094a932601e8e9"
+      },
+      {
+        "id": "21735c22-5352-4d0c-af1a-c710b004a91b",
+        "name": "this file will be shared",
+        "createdBy": "auth0|684eba3731094a932601e8e9"
+      }
+    ]
+  },
+  {
+    "id": "6e334941-4050-4120-806b-0328c1e1ba53",
+    "name": "this folder will be shared",
+    "parent": null,
+    "createdBy": "auth0|684eba3731094a932601e8e9",
+    "files": [
+      {
+        "id": "c7248234-6901-4c9f-b65e-15138e3b8c8e",
+        "name": "inside shared folder",
+        "createdBy": "auth0|684eba3731094a932601e8e9"
+      }
+    ]
+  }
+]

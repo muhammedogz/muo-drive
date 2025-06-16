@@ -1,0 +1,30 @@
+model
+  schema 1.1
+
+type user
+
+type folder
+  relations
+    define parent: [folder]
+
+    define owner: [user]
+    define temp_user: [user] # shared_view
+
+    define can_create: owner or can_create from parent
+    define can_delete: owner or can_delete from parent
+    define can_edit: owner or can_edit from parent
+    define can_share: owner or can_share from parent
+    define can_view: owner or temp_user or can_view from parent
+
+
+type file
+  relations
+    define parent: [folder]
+    define owner: [user]
+    define temp_user: [user]
+
+    define can_delete: owner or can_delete from parent
+    define can_edit: owner or can_edit from parent
+    define can_share: owner or can_share from parent
+    define can_view: owner or temp_user or can_view from parent
+
