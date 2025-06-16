@@ -11,11 +11,11 @@ import {
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import { ShareIcon } from "@/components/icons";
 import { useState } from "react";
 import { useToast } from "@/components/ui/use-toast";
 import { FileItem } from "@/store/folders";
 import { shareFile } from "@/app/actions";
+import { ShareIcon } from "lucide-react";
 
 export function ShareFile({ file }: { file: FileItem }) {
   const { toast } = useToast();

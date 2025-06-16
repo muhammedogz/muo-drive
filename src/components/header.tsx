@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { MenuIcon, SearchIcon } from "@/components/icons";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import {
   DropdownMenu,
@@ -12,7 +11,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import Link from "next/link";
 import { getUserDTO } from "@/data/user";
-import { HardDriveIcon } from "lucide-react";
+import { HardDriveIcon, SearchIcon } from "lucide-react";
 
 export default async function Header() {
   const user = await getUserDTO();

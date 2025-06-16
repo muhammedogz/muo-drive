@@ -1,5 +1,5 @@
-import { ExclamationTriangleIcon } from "@/components/icons";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { TriangleAlert } from "lucide-react";
 
 export function Error({
   title = "Oops, something went wrong",
@@ -10,7 +10,7 @@ export function Error({
 }) {
   return (
     <Alert variant="destructive">
-      <ExclamationTriangleIcon className="h-4 w-4" />
+      <TriangleAlert className="h-4 w-4" />
       <AlertTitle>{title}</AlertTitle>
       <AlertDescription>{message}</AlertDescription>
     </Alert>

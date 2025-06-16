@@ -77,7 +77,7 @@ npm run dev
 
 ## Demo
 
-![Live Demo](https://muo-drive.vercel.app)
+[Live Demo](https://muo-drive.vercel.app)
 
 ### Credentials
 

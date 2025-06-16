@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { TableRow, TableCell } from "@/components/ui/table";
-import { FolderIcon } from "@/components/icons";
 import { FolderItem } from "@/store/folders";
 import Link from "next/link";
 import { ShareFolder } from "@/components/drive/share-folder";
+import { FolderIcon } from "lucide-react";
 
 export function DriveFolder({ folder }: { folder: FolderItem }) {
   return (

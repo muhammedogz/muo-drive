@@ -1,6 +1,4 @@
 "use client";
-
-import { AddFolderIcon, ChevronRightIcon } from "@/components/icons";
 import Link from "next/link";
 import {
   Dialog,
@@ -18,7 +16,7 @@ import { useToast } from "@/components/ui/use-toast";
 import { useState, useTransition } from "react";
 import { createFile, createFolder } from "@/app/actions";
 import { useRouter } from "next/navigation";
-import { FileUpIcon } from "lucide-react";
+import { ChevronRightIcon, FileUpIcon, FolderIcon } from "lucide-react";
 
 interface DriveHeaderProps {
   name?: string | null;
@@ -119,7 +117,7 @@ export function DriveHeader({ name, parentFolderId }: DriveHeaderProps) {
         </DialogContent>
         <DialogTrigger asChild>
           <Button variant="outline">
-            <AddFolderIcon className="mr-2" /> Add Folder
+            <FolderIcon className="mr-2" /> Add Folder
           </Button>
         </DialogTrigger>
       </Dialog>

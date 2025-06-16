@@ -7,9 +7,9 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { FileIcon } from "@/components/icons";
 import { ShareFile } from "@/components/drive/share-file";
 import { FileItem } from "@/store/folders";
+import { FileIcon } from "lucide-react";
 
 export function DriveFile({ file }: { file: FileItem }) {
   return (
